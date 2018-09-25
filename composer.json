@@ -1,0 +1,22 @@
+{
+    "name": "mahmoud/imdb-app",
+    "description": "A PHP Web Collection Movie App",
+    "authors": [
+        {
+            "name": "Mahmoud Abdulhadi",
+            "email": "mahmoud.abdulhadi1993@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "^4.0"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "require": {},
+    "autoload": {
+        "psr-0": {
+            "" : "src"
+        }
+    }
+}
